@@ -1,0 +1,48 @@
+
+user_agent:
+  iphone: AppStore/2.0 iOS/7.0.4 model/iPhone5,2 (6; dt:82)
+  ipad: AppStore/2.0 iOS/7.0.3 model/iPad4,1 (5; dt:94)
+
+ranking:
+  all:                36
+  kids:               36
+  entertainment:      6016
+  education:          6017
+  game_all:           6014
+  game_all_games:     6014
+  game_action:        7001
+  game_adventure:     7002
+  game_arcade:        7003
+  game_board:         7004
+  game_card:          7005
+  game_casino:        7006
+  game_dice:          7007
+  game_educational:   7008
+  game_family:        7009
+  game_music:         7011
+  game_puzzle:        7012
+  game_racing:        7013
+  game_role_playing:  7014
+  game_simulation:    7015
+  game_sports:        7016
+  game_strategy:      7017
+  game_trivia :       7018
+  game_word:          7019
+  productivity:       6007
+  reference:          6006
+  photo_and_video:    6008
+  sports:             6004
+  social_networking:  6005
+  weather:            6001
+  navigation:         6010
+  news:               6009
+  business:           6000
+  finance:            6015
+  food_and_drink:     6023
+  books:              6018
+  health_fitness:     6013
+  music:              6011
+  medical:            6020
+  utilities:          6002
+  lifestyle:          6012
+  travel:             6003
