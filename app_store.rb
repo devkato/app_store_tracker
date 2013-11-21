@@ -89,7 +89,7 @@ class AppStore
 end
 
 app_store = AppStore.new
-logger = Logger::new(STDOUT)
+logger = Logger::new("./log/app_store.log")
 now = Time.now
 
 dir_path = "./dest/#{now.strftime('%Y%m%d')}/#{now.strftime('%H')}"
@@ -109,7 +109,9 @@ FileUtils.mkdir_p(dir_path) unless File.exists?(dir_path)
 
     logger.debug "genre_name: #{genre_name}\tgenre_id: #{genre_id}\tdevice: #{device}\tto #{file_path}"
 
-    open(file_path, 'w').write app_store.ranking(device, genre_name.to_sym)
+    open(file_path, 'w').write app_store.ranking(device, genre_name.to_sym).to_json
+
+    sleep 1
   end
 end
 
