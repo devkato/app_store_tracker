@@ -5,3 +5,4 @@ source "https://rubygems.org"
 
 gem 'yajl-ruby'
 gem 'awesome_print'
+gem 'android_market_api'

@@ -1,12 +1,16 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    android_market_api (0.3.2)
+      hpricot
     awesome_print (1.2.0)
+    hpricot (0.8.6)
     yajl-ruby (1.1.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  android_market_api
   awesome_print
   yajl-ruby
